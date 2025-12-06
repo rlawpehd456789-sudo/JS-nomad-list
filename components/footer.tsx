@@ -4,8 +4,6 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
-import { Instagram, Facebook, Twitter, Linkedin, Youtube } from "lucide-react"
-import { cn } from "@/lib/utils"
 
 export function Footer() {
   const [email, setEmail] = useState("")
@@ -45,125 +43,6 @@ export function Footer() {
             <p className="text-xs text-muted-foreground/70">
               이 사이트는 Nomads.com 데이터를 기반으로 제작되었습니다.
             </p>
-            <div className="pt-4 space-y-2 border-t border-border/50">
-              <p className="text-sm text-muted-foreground flex items-center gap-2">
-                <span>📧</span>
-                <span>
-                  <span className="font-medium">이메일:</span>{" "}
-                  <a
-                    href="mailto:rlawpehd456789@gmail.com"
-                    className="text-primary hover:underline"
-                  >
-                    rlawpehd456789@gmail.com
-                  </a>
-                </span>
-              </p>
-              <p className="text-sm text-muted-foreground flex items-center gap-2">
-                <span>📍</span>
-                <span>
-                  <span className="font-medium">위치:</span> 대한민국
-                </span>
-              </p>
-              <p className="text-sm text-muted-foreground flex items-center gap-2">
-                <span>📞</span>
-                <span>
-                  <span className="font-medium">전화번호:</span>{" "}
-                  <a
-                    href="tel:+821029292929"
-                    className="text-primary hover:underline"
-                  >
-                    +82-10-2929-2929
-                  </a>
-                </span>
-              </p>
-            </div>
-            
-            {/* 소셜 미디어 버튼 */}
-            <div className="pt-4 space-y-3">
-              <p className="text-sm font-medium text-foreground">소셜 미디어</p>
-              <div className="flex gap-2">
-                <a
-                  href="https://www.youtube.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={cn(
-                    "inline-flex items-center justify-center w-10 h-10 rounded-lg",
-                    "bg-muted/50 hover:bg-gradient-to-br hover:from-[#E4405F] hover:to-[#F56040]",
-                    "text-muted-foreground hover:text-white",
-                    "border border-border hover:border-transparent",
-                    "transition-all duration-200 hover:scale-110",
-                    "shadow-sm hover:shadow-md"
-                  )}
-                  aria-label="Instagram"
-                >
-                  <Instagram className="w-5 h-5" />
-                </a>
-                <a
-                  href="https://www.youtube.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={cn(
-                    "inline-flex items-center justify-center w-10 h-10 rounded-lg",
-                    "bg-muted/50 hover:bg-[#1877F2]",
-                    "text-muted-foreground hover:text-white",
-                    "border border-border hover:border-transparent",
-                    "transition-all duration-200 hover:scale-110",
-                    "shadow-sm hover:shadow-md"
-                  )}
-                  aria-label="Facebook"
-                >
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a
-                  href="https://www.youtube.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={cn(
-                    "inline-flex items-center justify-center w-10 h-10 rounded-lg",
-                    "bg-muted/50 hover:bg-[#1DA1F2]",
-                    "text-muted-foreground hover:text-white",
-                    "border border-border hover:border-transparent",
-                    "transition-all duration-200 hover:scale-110",
-                    "shadow-sm hover:shadow-md"
-                  )}
-                  aria-label="Twitter"
-                >
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a
-                  href="https://www.youtube.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={cn(
-                    "inline-flex items-center justify-center w-10 h-10 rounded-lg",
-                    "bg-muted/50 hover:bg-[#0A66C2]",
-                    "text-muted-foreground hover:text-white",
-                    "border border-border hover:border-transparent",
-                    "transition-all duration-200 hover:scale-110",
-                    "shadow-sm hover:shadow-md"
-                  )}
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="w-5 h-5" />
-                </a>
-                <a
-                  href="https://www.youtube.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={cn(
-                    "inline-flex items-center justify-center w-10 h-10 rounded-lg",
-                    "bg-muted/50 hover:bg-[#FF0000]",
-                    "text-muted-foreground hover:text-white",
-                    "border border-border hover:border-transparent",
-                    "transition-all duration-200 hover:scale-110",
-                    "shadow-sm hover:shadow-md"
-                  )}
-                  aria-label="YouTube"
-                >
-                  <Youtube className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
           </div>
 
           {/* Links Section */}
@@ -194,7 +73,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:rlawpehd456789@gmail.com"
+                  href="mailto:contact@nomadlist.com"
                   className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 group"
                 >
                   <span>문의하기</span>
@@ -275,7 +154,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} 노마드 리스트. All rights reserved.
+            © 2025 노마드 리스트. All rights reserved.
           </p>
         </div>
       </div>
