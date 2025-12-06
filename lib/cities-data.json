@@ -1,0 +1,330 @@
+[
+  {
+    "id": "bangkok-th",
+    "rank": 1,
+    "name": "Bangkok",
+    "country": "Thailand",
+    "continent": "Asia",
+    "weather": {
+      "icon": "🌥",
+      "temperature": 32,
+      "feelsLike": 37,
+      "aqi": 159
+    },
+    "cost": {
+      "monthly": 1602,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 24
+    },
+    "scores": {
+      "overall": 4.5
+    },
+    "image": "/city/bangkok-thailand.jpg",
+    "badges": [
+      "Popular"
+    ],
+    "nomadsUrl": "https://nomads.com/bangkok"
+  },
+  {
+    "id": "chiang-mai-th",
+    "rank": 2,
+    "name": "Chiang Mai",
+    "country": "Thailand",
+    "continent": "Asia",
+    "weather": {
+      "icon": "☀️",
+      "temperature": 28,
+      "feelsLike": 31,
+      "aqi": 45
+    },
+    "cost": {
+      "monthly": 1245,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 32
+    },
+    "scores": {
+      "overall": 4.7
+    },
+    "image": "/city/chiang-mai-thailand.jpg",
+    "badges": [
+      "Hidden Gem"
+    ],
+    "nomadsUrl": "https://nomads.com/chiang-mai"
+  },
+  {
+    "id": "lisbon-pt",
+    "rank": 3,
+    "name": "Lisbon",
+    "country": "Portugal",
+    "continent": "Europe",
+    "weather": {
+      "icon": "🌤",
+      "temperature": 22,
+      "feelsLike": 23,
+      "aqi": 35
+    },
+    "cost": {
+      "monthly": 2450,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 58
+    },
+    "scores": {
+      "overall": 4.6
+    },
+    "image": "/city/lisbon-portugal.jpg",
+    "badges": [
+      "Popular"
+    ],
+    "nomadsUrl": "https://nomads.com/lisbon"
+  },
+  {
+    "id": "bali-id",
+    "rank": 4,
+    "name": "Bali",
+    "country": "Indonesia",
+    "continent": "Asia",
+    "weather": {
+      "icon": "🌦",
+      "temperature": 30,
+      "feelsLike": 34,
+      "aqi": 52
+    },
+    "cost": {
+      "monthly": 1789,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 28
+    },
+    "scores": {
+      "overall": 4.4
+    },
+    "image": "/city/bali-indonesia.jpg",
+    "badges": [
+      "Popular"
+    ],
+    "nomadsUrl": "https://nomads.com/bali"
+  },
+  {
+    "id": "mexico-city-mx",
+    "rank": 5,
+    "name": "Mexico City",
+    "country": "Mexico",
+    "continent": "Latin America",
+    "weather": {
+      "icon": "☀️",
+      "temperature": 24,
+      "feelsLike": 26,
+      "aqi": 95
+    },
+    "cost": {
+      "monthly": 1980,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 45
+    },
+    "scores": {
+      "overall": 4.3
+    },
+    "image": "/city/mexico-city-mexico.jpg",
+    "badges": [],
+    "nomadsUrl": "https://nomads.com/mexico-city"
+  },
+  {
+    "id": "medellin-co",
+    "rank": 6,
+    "name": "Medellin",
+    "country": "Colombia",
+    "continent": "Latin America",
+    "weather": {
+      "icon": "🌤",
+      "temperature": 26,
+      "feelsLike": 28,
+      "aqi": 42
+    },
+    "cost": {
+      "monthly": 1567,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 38
+    },
+    "scores": {
+      "overall": 4.5
+    },
+    "image": "/city/medellin-colombia.jpg",
+    "badges": [
+      "Hidden Gem"
+    ],
+    "nomadsUrl": "https://nomads.com/medellin"
+  },
+  {
+    "id": "berlin-de",
+    "rank": 7,
+    "name": "Berlin",
+    "country": "Germany",
+    "continent": "Europe",
+    "weather": {
+      "icon": "⛅",
+      "temperature": 18,
+      "feelsLike": 17,
+      "aqi": 28
+    },
+    "cost": {
+      "monthly": 2890,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 72
+    },
+    "scores": {
+      "overall": 4.2
+    },
+    "image": "/city/berlin-germany.jpg",
+    "badges": [],
+    "nomadsUrl": "https://nomads.com/berlin"
+  },
+  {
+    "id": "prague-cz",
+    "rank": 8,
+    "name": "Prague",
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "weather": {
+      "icon": "🌥",
+      "temperature": 16,
+      "feelsLike": 15,
+      "aqi": 32
+    },
+    "cost": {
+      "monthly": 2145,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 65
+    },
+    "scores": {
+      "overall": 4.4
+    },
+    "image": "/city/prague-czech-republic.jpg",
+    "badges": [
+      "Hidden Gem"
+    ],
+    "nomadsUrl": "https://nomads.com/prague"
+  },
+  {
+    "id": "dubai-ae",
+    "rank": 9,
+    "name": "Dubai",
+    "country": "UAE",
+    "continent": "Middle East",
+    "weather": {
+      "icon": "☀️",
+      "temperature": 36,
+      "feelsLike": 42,
+      "aqi": 78
+    },
+    "cost": {
+      "monthly": 3450,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 98
+    },
+    "scores": {
+      "overall": 4.1
+    },
+    "image": "/city/dubai-uae.jpg",
+    "badges": [],
+    "nomadsUrl": "https://nomads.com/dubai"
+  },
+  {
+    "id": "tokyo-jp",
+    "rank": 10,
+    "name": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "weather": {
+      "icon": "🌤",
+      "temperature": 20,
+      "feelsLike": 21,
+      "aqi": 38
+    },
+    "cost": {
+      "monthly": 3120,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 145
+    },
+    "scores": {
+      "overall": 4.6
+    },
+    "image": "/city/도쿄.jpeg",
+    "badges": [
+      "Popular"
+    ],
+    "nomadsUrl": "https://nomads.com/tokyo"
+  },
+  {
+    "id": "buenos-aires-ar",
+    "rank": 11,
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "continent": "Latin America",
+    "weather": {
+      "icon": "☀️",
+      "temperature": 22,
+      "feelsLike": 23,
+      "aqi": 45
+    },
+    "cost": {
+      "monthly": 1345,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 42
+    },
+    "scores": {
+      "overall": 4.3
+    },
+    "image": "/city/buenos-aires-argentina.jpg",
+    "badges": [
+      "Hidden Gem"
+    ],
+    "nomadsUrl": "https://nomads.com/buenos-aires"
+  },
+  {
+    "id": "cape-town-za",
+    "rank": 12,
+    "name": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "weather": {
+      "icon": "🌤",
+      "temperature": 21,
+      "feelsLike": 22,
+      "aqi": 30
+    },
+    "cost": {
+      "monthly": 1890,
+      "currency": "USD"
+    },
+    "internet": {
+      "speed": 35
+    },
+    "scores": {
+      "overall": 4.4
+    },
+    "image": "/city/cape-town-south-africa.jpg",
+    "badges": [],
+    "nomadsUrl": "https://nomads.com/cape-town"
+  }
+]
